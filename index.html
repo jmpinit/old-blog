@@ -12,3 +12,12 @@ title: /home
    </li>
 </ul>
 
+<hr>
+
+<ol>
+{% for post in site.posts %}
+    <li>
+        <p><b><a href="{{ post.url }}">{{ post.title }}</a></b> at {{post.date}} in {{post.category}}</p>
+    </li>
+{% endfor %}
+</ol>
