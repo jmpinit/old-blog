@@ -2,7 +2,7 @@
 layout: post
 title: "solar gates"
 description: ""
-category: concept
+category: "concept"
 tags: []
 ---
 
