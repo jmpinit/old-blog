@@ -2,7 +2,7 @@
 layout: post
 title: "bliptronic 5000 mod chip"
 description: ""
-category: "hardware"
+category: "draft"
 tags: []
 ---
 
