@@ -2,7 +2,7 @@
 layout: post
 title: "laser cutter fun"
 description: ""
-category: "draft"
+category: "hardware"
 tags: []
 ---
 
