@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "nyc_world_maker_faire"
 description: ""
 category: "old"
 tags: []

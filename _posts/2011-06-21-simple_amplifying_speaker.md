@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "simple_amplifying_speaker"
 description: ""
 category: "old"
 tags: []

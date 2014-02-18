@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "e_paper_display_for_node_dot_js"
 description: ""
 category: "old"
 tags: []

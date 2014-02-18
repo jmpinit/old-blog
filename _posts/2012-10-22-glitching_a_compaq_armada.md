@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "glitching_a_compaq_armada"
 description: ""
 category: "old"
 tags: []

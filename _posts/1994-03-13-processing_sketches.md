@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "processing_sketches"
 description: ""
 category: "old"
 tags: []

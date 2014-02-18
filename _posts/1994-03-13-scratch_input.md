@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "scratch_input"
 description: ""
 category: "old"
 tags: []

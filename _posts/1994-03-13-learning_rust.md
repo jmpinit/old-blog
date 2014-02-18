@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "learning_rust"
 description: ""
 category: "old"
 tags: []

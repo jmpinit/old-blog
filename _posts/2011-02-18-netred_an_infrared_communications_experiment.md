@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "netred_an_infrared_communications_experiment"
 description: ""
 category: "old"
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "winamp_rating_remote"
 description: ""
 category: "old"
 tags: []

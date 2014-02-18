@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "tiny_miasmata"
 description: ""
 category: "old"
 tags: []

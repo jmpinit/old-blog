@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "deep_magic_progress_update_0"
 description: ""
 category: "old"
 tags: []

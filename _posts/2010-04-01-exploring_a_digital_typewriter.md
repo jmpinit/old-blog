@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "exploring_a_digital_typewriter"
 description: ""
 category: "old"
 tags: []

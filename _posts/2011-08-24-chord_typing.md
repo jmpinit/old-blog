@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "chord_typing"
 description: ""
 category: "old"
 tags: []

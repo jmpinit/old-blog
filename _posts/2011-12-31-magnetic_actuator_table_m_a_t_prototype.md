@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "magnetic_actuator_table_m_a_t_prototype"
 description: ""
 category: "old"
 tags: []

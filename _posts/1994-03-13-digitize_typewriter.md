@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "digitize_typewriter"
 description: ""
 category: "old"
 tags: []

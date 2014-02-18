@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "ersat_teaser"
 description: ""
 category: "old"
 tags: []

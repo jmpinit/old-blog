@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "git_last_commit"
 description: ""
 category: "old"
 tags: []

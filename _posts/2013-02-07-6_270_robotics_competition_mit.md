@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "6_270_robotics_competition_mit"
 description: ""
 category: "old"
 tags: []

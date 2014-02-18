@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "attiny13_and_nokia_3310_lcd"
 description: ""
 category: "old"
 tags: []

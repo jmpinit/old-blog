@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "linux_disco"
 description: ""
 category: "old"
 tags: []

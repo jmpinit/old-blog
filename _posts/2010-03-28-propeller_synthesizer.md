@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "propeller_synthesizer"
 description: ""
 category: "old"
 tags: []

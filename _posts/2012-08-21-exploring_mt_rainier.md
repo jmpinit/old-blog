@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "exploring_mt_rainier"
 description: ""
 category: "old"
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "mythical_s"
 description: ""
 category: "old"
 tags: []

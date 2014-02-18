@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "sierpinski_cards"
 description: ""
 category: "old"
 tags: []

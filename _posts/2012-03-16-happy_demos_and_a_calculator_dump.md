@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "happy_demos_and_a_calculator_dump"
 description: ""
 category: "old"
 tags: []

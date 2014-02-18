@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "gameboy_camera_successfully_hacked"
 description: ""
 category: "old"
 tags: []

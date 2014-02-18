@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "note_taking_keyboard"
 description: ""
 category: "old"
 tags: []

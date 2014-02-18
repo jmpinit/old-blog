@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "crysis_on_a_ti_calculator"
 description: ""
 category: "old"
 tags: []

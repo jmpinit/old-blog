@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "gba_satellite"
 description: ""
 category: "old"
 tags: []

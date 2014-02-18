@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "fun_at_codeday_going_to_toorcamp"
 description: ""
 category: "old"
 tags: []

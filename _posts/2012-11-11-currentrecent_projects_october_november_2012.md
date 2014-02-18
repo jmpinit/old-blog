@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "currentrecent_projects_october_november_2012"
 description: ""
 category: "old"
 tags: []

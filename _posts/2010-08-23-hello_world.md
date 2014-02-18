@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "hello_world"
 description: ""
 category: "old"
 tags: []

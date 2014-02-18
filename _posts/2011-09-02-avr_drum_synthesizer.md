@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "avr_drum_synthesizer"
 description: ""
 category: "old"
 tags: []

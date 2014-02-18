@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "activity_suggester"
 description: ""
 category: "old"
 tags: []

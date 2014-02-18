@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "hardware_social_network"
 description: ""
 category: "old"
 tags: []

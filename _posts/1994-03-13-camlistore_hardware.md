@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "camlistore_hardware"
 description: ""
 category: "old"
 tags: []

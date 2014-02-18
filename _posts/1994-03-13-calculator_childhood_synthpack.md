@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "calculator_childhood_synthpack"
 description: ""
 category: "old"
 tags: []

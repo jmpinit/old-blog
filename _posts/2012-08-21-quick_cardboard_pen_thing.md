@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "quick_cardboard_pen_thing"
 description: ""
 category: "old"
 tags: []

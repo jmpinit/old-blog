@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "gbcam_test"
 description: ""
 category: "old"
 tags: []

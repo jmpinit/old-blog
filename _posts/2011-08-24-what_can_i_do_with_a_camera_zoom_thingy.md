@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "what_can_i_do_with_a_camera_zoom_thingy"
 description: ""
 category: "old"
 tags: []

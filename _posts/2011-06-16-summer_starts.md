@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "summer_starts"
 description: ""
 category: "old"
 tags: []

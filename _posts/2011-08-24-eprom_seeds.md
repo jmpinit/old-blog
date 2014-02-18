@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "eprom_seeds"
 description: ""
 category: "old"
 tags: []

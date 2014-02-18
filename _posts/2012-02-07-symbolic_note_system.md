@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "symbolic_note_system"
 description: ""
 category: "old"
 tags: []

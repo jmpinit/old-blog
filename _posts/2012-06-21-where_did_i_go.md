@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "where_did_i_go"
 description: ""
 category: "old"
 tags: []

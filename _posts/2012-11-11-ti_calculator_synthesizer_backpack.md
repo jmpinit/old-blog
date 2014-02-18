@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "ti_calculator_synthesizer_backpack"
 description: ""
 category: "old"
 tags: []

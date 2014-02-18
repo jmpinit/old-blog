@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "gba_multiboot_concepts"
 description: ""
 category: "old"
 tags: []

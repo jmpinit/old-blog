@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "arduino_calculator_control"
 description: ""
 category: "old"
 tags: []

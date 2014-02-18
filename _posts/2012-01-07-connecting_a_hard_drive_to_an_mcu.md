@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "connecting_a_hard_drive_to_an_mcu"
 description: ""
 category: "old"
 tags: []

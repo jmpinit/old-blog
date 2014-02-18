@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "silly_robot_computer"
 description: ""
 category: "old"
 tags: []

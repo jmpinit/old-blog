@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "my_poor_power_brick"
 description: ""
 category: "old"
 tags: []

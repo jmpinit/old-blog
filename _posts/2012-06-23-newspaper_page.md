@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "newspaper_page"
 description: ""
 category: "old"
 tags: []

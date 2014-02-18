@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "accomplishment_box"
 description: ""
 category: "old"
 tags: []

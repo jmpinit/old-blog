@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "the_deep_magic_project"
 description: ""
 category: "old"
 tags: []

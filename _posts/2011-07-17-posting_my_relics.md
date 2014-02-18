@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "posting_my_relics"
 description: ""
 category: "old"
 tags: []

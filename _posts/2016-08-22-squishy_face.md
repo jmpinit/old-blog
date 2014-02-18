@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "squishy_face"
 description: ""
 category: "old"
 tags: []

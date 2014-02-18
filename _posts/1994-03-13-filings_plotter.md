@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "filings_plotter"
 description: ""
 category: "old"
 tags: []

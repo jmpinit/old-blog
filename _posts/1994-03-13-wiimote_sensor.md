@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "wiimote_sensor"
 description: ""
 category: "old"
 tags: []

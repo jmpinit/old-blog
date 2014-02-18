@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "combining_c_and_rust"
 description: ""
 category: "old"
 tags: []

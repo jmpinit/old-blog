@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "introducing_beep"
 description: ""
 category: "old"
 tags: []

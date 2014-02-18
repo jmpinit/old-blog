@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "failed_cnc_machine"
 description: ""
 category: "old"
 tags: []

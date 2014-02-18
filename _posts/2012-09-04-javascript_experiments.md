@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "javascript_experiments"
 description: ""
 category: "old"
 tags: []

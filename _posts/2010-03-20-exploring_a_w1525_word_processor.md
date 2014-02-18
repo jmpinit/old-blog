@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "exploring_a_w1525_word_processor"
 description: ""
 category: "old"
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "simulacrum_revision_1_hardware_failed"
 description: ""
 category: "old"
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "applied_to_college"
 description: ""
 category: "old"
 tags: []

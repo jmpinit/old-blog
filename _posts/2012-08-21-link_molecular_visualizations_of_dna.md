@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "link_molecular_visualizations_of_dna"
 description: ""
 category: "old"
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "mstick_a_prop_based_music_player"
 description: ""
 category: "old"
 tags: []

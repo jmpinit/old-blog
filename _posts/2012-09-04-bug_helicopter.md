@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "bug_helicopter"
 description: ""
 category: "old"
 tags: []

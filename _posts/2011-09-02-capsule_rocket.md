@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "capsule_rocket"
 description: ""
 category: "old"
 tags: []

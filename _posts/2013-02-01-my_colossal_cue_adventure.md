@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "my_colossal_cue_adventure"
 description: ""
 category: "old"
 tags: []

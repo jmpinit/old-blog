@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "telnet_plasma"
 description: ""
 category: "old"
 tags: []

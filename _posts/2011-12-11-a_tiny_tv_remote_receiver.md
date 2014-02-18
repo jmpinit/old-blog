@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "a_tiny_tv_remote_receiver"
 description: ""
 category: "old"
 tags: []

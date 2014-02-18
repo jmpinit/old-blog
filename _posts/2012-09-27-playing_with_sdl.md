@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "playing_with_sdl"
 description: ""
 category: "old"
 tags: []

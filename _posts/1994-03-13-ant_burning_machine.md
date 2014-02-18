@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<insert title here>"
+title: "ant_burning_machine"
 description: ""
 category: "old"
 tags: []
