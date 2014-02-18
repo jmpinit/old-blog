@@ -6,8 +6,7 @@ category: "old"
 tags: []
 ---
 
-
-<iframe width="480" height="360" src="http://www.youtube.com/embed/p_Sm2s3hkeo?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="480" height="360" src="http://www.youtube.com/embed/p_Sm2s3hkeo?rel=0" frameborder="0"></iframe>
 
 A long long time ago (middle of the school year) I was playing around with an Attiny13 and a Nokia3310 LCD. I wrote a bunch of demos (which I've documented [here](http://www.hackniac.com/posts/attiny13-and-nokia-3310-lcd.html)) but I didn't really turn the experiments into a real project. Yesterday I finally had the motivation to do something with the code that I had written. I have been working almost nonstop (except for sleep) on new Flash game of mine, and it started to turn into a grind. I was getting tired of Actionscript and its object-oriented softness. The challenge of making a little game system out of a Nokia 3310-compatible LCD (Sparkfun doesn't sell the 3310 anymore :< ) and an Attiny13 seemed like just the cure.
 
