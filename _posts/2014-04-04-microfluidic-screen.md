@@ -6,13 +6,16 @@ category: hardware
 tags: []
 ---
 
+<!-- TODO: how I made the images (JS script manipulating SVG => dilation in GIMP) -->
+<!-- TODO:  -->
+
 # Microfluidic Screen
 
 ![the design](http://hackniac.com/images/microfluidic_screen/microfluid_screen.png)
 
 ## Background
 
-One of my classes is [Nanomaker](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s079-nanomaker-spring-2013/), which is all about learning how to make tiny things as cheaply and easily as possible. Every week in lab create something that either exploits or is nanotechnology, like spectroscopes, holograms, [inorganic EL devices](http://owen-t.me/hardware/2014/03/01/diy-el.html), or microfluidic devices.
+One of my classes is [Nanomaker](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s079-nanomaker-spring-2013/), which is all about learning how to make tiny things as cheaply and easily as possible. Every week in lab create something that either exploits nanotechnology or is nanotechnology, like spectroscopes, holograms, [inorganic EL devices](http://owen-t.me/hardware/2014/03/01/diy-el.html), or microfluidic devices.
 
 Lately we've been focusing on microfluidics, which is an area that especially excites me. Microfluidics takes the manufacturing ideas developed so extensively in microelectronics and applies them to manipulation of fluids. Not only can you shrink anything that involves "plumbing" (as long as the application still works with less fluid, like most tests in labs), but you can take advantage of the weird physics that fluids exhibit in small quantities and spaces. Normally weak effects like surface tension and Van der Waals forces start to reign supreme when dealing with microliters of fluids.
 
