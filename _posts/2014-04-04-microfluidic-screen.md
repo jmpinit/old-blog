@@ -2,7 +2,7 @@
 layout: post
 title: "microfluidic screen"
 description: ""
-category: 
+category: hardware
 tags: []
 ---
 
