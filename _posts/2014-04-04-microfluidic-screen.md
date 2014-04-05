@@ -7,7 +7,8 @@ tags: []
 ---
 
 <!-- TODO: how I made the images (JS script manipulating SVG => dilation in GIMP) -->
-<!-- TODO:  -->
+<!-- TODO: mention other Hilbert curve project -->
+<!-- TODO: simulation of image error -->
 
 # Microfluidic Screen
 
