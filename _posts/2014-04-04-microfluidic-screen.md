@@ -7,7 +7,6 @@ tags: []
 ---
 
 <!-- TODO: how I made the images (JS script manipulating SVG => dilation in GIMP) -->
-<!-- TODO: mention other Hilbert curve project -->
 
 # Microfluidic Screen
 
@@ -57,7 +56,7 @@ To actually put an image on the display, a computer turns the valves on and off 
 
 ## The Weird Squiggled Channel
 
-The reasoning behind the pattern of the display channel is really the only clever aspect of the design. It's a [Hilbert curve](http://en.wikipedia.org/wiki/Hilbert_curve), which is known as a space-filling curve (also a fractal). A one dimensional data set mapped into two dimensional space via a Hilbert curve maintains locality. Simply put in the context of my display, it's harder for little errors in the size of the fluid to add up and wreck the image that is produced. To make this clear, imagine that instead of the Hilbert curved channel the design simply used a channel that goes in a straight line from left to right, and then turns and loops back right to left, over and over. You can imagine that if a whole stream of pixels was pushed down that line, an error of one pixel would shift every line before it and completely ruin the image. In a channel with a Hilbert curve, an error like that would still mess up the image, but it would be harder to notice because the pixels are still very close to where they need to be.
+The reasoning behind the pattern of the display channel is really the only clever aspect of the design. It's a [Hilbert curve](http://en.wikipedia.org/wiki/Hilbert_curve), which is known as a space-filling curve (also a fractal). A one dimensional data set mapped into two dimensional space via a Hilbert curve maintains locality (I became aware of this neat property after [this other project of mine](http://owen-t.me/software/2014/02/18/turtle-soup.html). Simply put in the context of my display, it's harder for little errors in the size of the fluid to add up and wreck the image that is produced. To make this clear, imagine that instead of the Hilbert curved channel the design simply used a channel that goes in a straight line from left to right, and then turns and loops back right to left, over and over. You can imagine that if a whole stream of pixels was pushed down that line, an error of one pixel would shift every line before it and completely ruin the image. In a channel with a Hilbert curve, an error like that would still mess up the image, but it would be harder to notice because the pixels are still very close to where they need to be.
 
 I wrote a little program to simulate the effects of varying levels of errors in the Hilbert curve channel and the back-and-forth line channel. It runs a little robot over an image in the specified pattern while the robot records the colors it drives over in a big list. It then hands off the list to another robot that drives over a blank canvas in the same pattern, laying down the colors in its list in order. If the list is handed over with no changes then the image is reproduced perfectly. To simulate realistic errors a random selection of items in the list are deleted. This corresponds to a sync problem in the real life microfluidic device.
 
