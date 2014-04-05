@@ -61,11 +61,11 @@ The reasoning behind the pattern of the display channel is really the only cleve
 
 I wrote a little program to simulate the effects of varying levels of errors in the Hilbert curve channel and the back-and-forth line channel. It runs a little robot over an image in the specified pattern while the robot records the colors it drives over in a big list. It then hands off the list to another robot that drives over a blank canvas in the same pattern, laying down the colors in its list in order. If the list is handed over with no changes then the image is reproduced perfectly. To simulate realistic errors a random selection of items in the list are deleted. This corresponds to a sync problem in the real life microfluidic device.
 
-Back-and-forth:
+### Back-and-forth:
 
 ![line](http://hackniac.com/images/microfluidic_display/sim/line/line_error.gif)
 
-Hilbert:
+### Hilbert:
 
 ![hilbert](http://hackniac.com/images/microfluidic_display/sim/hilbert/hilbert_error.gif)
 
