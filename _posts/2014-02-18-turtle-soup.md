@@ -68,3 +68,5 @@ The code drawing some original [artwork of mine](http://hackniac.com/art/board/l
 ![art](http://hackniac.com/images/turtle_soup/turtle_art.gif)
 
 Wish me luck in winning the prize.
+
+__Update:__ I didn't win the prize. Somebody else made a simpler program that also draws an arbitrary image and used it to draw Doge. ¯\_(ツ)_/¯
