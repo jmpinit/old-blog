@@ -38,14 +38,21 @@ Repeating the raycasting for every layer builds up the full 3D image. The raycas
 
 ## Getting the Panda Model
 
+<style>
+    img#panda {
+        width: auto;
+        height: 128px;
+    }
+</style>
+
+<img id="panda" src="http://hackniac.com/images/panda/panda1.png">
+<img id="panda" src="http://hackniac.com/images/panda/panda2.png">
+<img id="panda" src="http://hackniac.com/images/panda/panda3.png">
+<img id="panda" src="http://hackniac.com/images/panda/panda4.png">
+
 I wanted to mimic the original effect as closely as possible, so I had to get the 16x9x16 3 color voxels making up the panda in the demo. Initially I had been generating simple shapes with math to have something to see while I tested the rendering code, but I added a bit of code to generate layer matrices from a huge 16x(9x16) integer array. I spent an hour plugging voxels into this array by hand while playing the original panda effect on loop, but it became apparent that I wouldn't finish before the night was over.
 
-Looking for a quick hack to speed things up, I downloaded the Youtube video and stepped through it frame-by-frame in VLC. I made the 4 pixel-perfect images of the panda below, showing each of its sides dead-on. Then I wrote an [awful Python script](https://gist.github.com/jmptable/11151410) that uses PIL to go through two of the images showing orthogonal views (front/back with left/right) and spit out a Java array with positions filled in where absolutely no voxel could be (if a pixel is the background color, then every position in front or behind it is empty). This narrowed the problem down a lot and allowed me to fill in the voxels much faster. After another hour I had a reasonable approximation of the panda. Unfortunately there's some kind of asymptotic curve of difficulty on filling in the voxels, so that getting the very last ones right is extremely difficult, because rotation of the model in the video must be watched very closely for clues about the 3D shape.
-
-![front](http://hackniac.com/images/panda/panda1.png)
-![left](http://hackniac.com/images/panda/panda2.png)
-![back](http://hackniac.com/images/panda/panda3.png)
-![right](http://hackniac.com/images/panda/panda4.png)
+Looking for a quick hack to speed things up, I downloaded the Youtube video and stepped through it frame-by-frame in VLC. I made the 4 pixel-perfect images of the panda above, showing each of its sides dead-on. Then I wrote an [awful Python script](https://gist.github.com/jmptable/11151410) that uses PIL to go through two of the images showing orthogonal views (front/back with left/right) and spit out a Java array with positions filled in where absolutely no voxel could be (if a pixel is the background color, then every position in front or behind it is empty). This narrowed the problem down a lot and allowed me to fill in the voxels much faster. After another hour I had a reasonable approximation of the panda. Unfortunately there's some kind of asymptotic curve of difficulty on filling in the voxels, so that getting the very last ones right is extremely difficult, because rotation of the model in the video must be watched very closely for clues about the 3D shape.
 
 Results
 =======
