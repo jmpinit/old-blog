@@ -17,7 +17,7 @@ To aid its use as a party utensil, Ben wrote a visual DJing application in Java 
 
 The other night there was a party where we live, and the VLLA was set up above the dance floor. Imagining accolades from a wowed captive audience, I decided that I wanted to write a new pattern for it. Remembering [one of my favorite C64 demos ever](https://www.youtube.com/watch?v=L8onlB0F1_A), I knew what I wanted to make the pattern do. There's a section of the demo where the data from the first side of the floppy disk has been exhausted and some time needs to be wasted while the person running the demo takes the floppy out, flips it, and puts it back in. While that operation is happening, the demo is running a pretty 3D effect, where a voxelated malicious panda (one of the demo's motifs) rotates:
 
-<iframe width="640" height="390" src="//www.youtube.com/embed/L8onlB0F1_A#t=311" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="390" src="//www.youtube.com/embed/L8onlB0F1_A?start=310&end=330" frameborder="0" allowfullscreen></iframe>
 
 I love that effect because it's both technically interesting and satisfying to watch. Also, although coding this effect on the C64 would be a real challenge, the speed of modern hardware means that even a naive approach will work. Ease of implementation was important because I wanted to finish the effect before the party started (or at least before it was over).
 
