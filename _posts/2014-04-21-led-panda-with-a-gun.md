@@ -11,7 +11,7 @@ tags: []
 Context
 =======
 
-A few years ago my friend Ben made [a very bright 60x32 pixel LED array](http://e2e.ti.com/group/universityprogram/students/m/students_repository/664650.aspx) (called the Very Large LED Array, or VLLA for short). Since its inception it has been a fixture of many parties and events. Earlier this year Ben decided to completely redo the array. He used flexible RGB LED strips mounted on a plywood frame painted black, with two (Teensy microcontroller boards)[https://www.pjrc.com/teensy/] as the brains. A dual USB connection carries images from a computer to the display.
+A few years ago my friend Ben made [a very bright 60x32 pixel LED array](http://e2e.ti.com/group/universityprogram/students/m/students_repository/664650.aspx) (called the Very Large LED Array, or VLLA for short). Since its inception it has been a fixture of many parties and events. Earlier this year Ben decided to completely redo the array. He used flexible RGB LED strips mounted on a plywood frame painted black, with two [Teensy microcontroller boards](https://www.pjrc.com/teensy/) as the brains. A dual USB connection carries images from a computer to the display.
 
 To aid its use as a party utensil, Ben wrote a visual DJing application in Java that allows premade audio-responsive patterns to be combined and swapped on the fly. He made the interface for patterns fairly simple, so that other people (like me) could pick it up and develop effects for the VLLA.
 
