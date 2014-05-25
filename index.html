@@ -17,6 +17,7 @@ title: /home
 <ol>
 {% for post in site.posts %}
     <li>
+                {% if post.category != "subpost" %}
 		{% if post.category == "draft" %}
 		<i>
 		{% endif %}
@@ -24,6 +25,7 @@ title: /home
 		{% if post.category == "draft" %}
 		</i>
 		{% endif %}
+                {% endif %}
     </li>
 {% endfor %}
 </ol>
