@@ -2,7 +2,7 @@
 layout: post
 title: "calculator_childhood_endworld"
 description: ""
-category: "old"
+category: "subpost"
 tags: []
 ---
 
