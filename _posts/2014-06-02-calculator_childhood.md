@@ -1,4 +1,4 @@
-[[---]]
+---
 layout: post
 title: "calculator_childhood"
 description: ""
