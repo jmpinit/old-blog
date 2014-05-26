@@ -9,9 +9,9 @@ tags: []
 
 #### ARMAGED
 
-Simulates Armageddon. Generates a terrain, then fills it with buildings in caves. Then it simulates the collapse of the generated world on a per-column basis.
+![ARMAGED](http://hackniac.com/images/posts/calculator_childhood/ARMAGED.gif)
 
-![ARMAGED](../images/calculator_childhood/ARMAGED.gif)
+Simulates Armageddon. Generates a terrain, then fills it with buildings in caves. Then it simulates the collapse of the generated world on a per-column basis.
 
 #### CAVE
 
