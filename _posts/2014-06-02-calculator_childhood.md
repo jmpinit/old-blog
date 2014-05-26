@@ -8,11 +8,11 @@ tags: []
 
 <!-- TODO Overview of calculator hacking in grade school -->
 
-* [axe](calculator_childhood_axe.md)
-* [demos](calculator_childhood_demos.md)
-* [emulators](calculator_childhood_emus.md)
-* [apocalypse](calculator_childhood_endworld.md)
-* [evolutionary algorithms](calculator_childhood_evo.md)
-* [gravity simulation](calculator_childhood_gravity.md)
-* [mimas assembly programs](calculator_childhood_mimas.md)
-* [synthesizer](calculator_childhood_synthpack.md)
+* [axe](subpost/2014/05/27/calculator_childhood_axe.html)
+* [demos](subpost/2014/05/28/calculator_childhood_demos.html)
+* [emulators](subpost/2014/05/29/calculator_childhood_emus.html)
+* [apocalypse](subpost/2014/05/29/calculator_childhood_endworld.html)
+* [evolutionary algorithms](subpost/2014/05/30/calculator_childhood_evo.html)
+* [gravity simulation](subpost/2014/05/30/calculator_childhood_gravity.html)
+* [mimas assembly programs](subpost/2014/05/31/calculator_childhood_mimas.html)
+* [synthesizer](subpost/2014/06/01/calculator_childhood_synthpack.html)
