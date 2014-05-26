@@ -6,6 +6,8 @@ category: "subpost"
 tags: []
 ---
 
+<!-- TODO overview -->
+
 # BIRD
 
 ![BIRD](http://hackniac.com/images/posts/calculator_childhood/BIRD.gif)
@@ -54,7 +56,13 @@ Uses the sprite manipulation routines of Axe to pan a field of smiley-face sprit
 
 ![TNPLSM](http://hackniac.com/images/posts/calculator_childhood/TINYPLAS.gif)
 
-Tiny plasm is one of my favorite effects, because it takes advantage of the sprite routines of Axe to generate a fast plasma effect with dynamically generated dithered sprites.
+Tiny plasma is one of my favorite effects, because it takes advantage of the sprite routines of Axe to generate a fast plasma effect with dynamically generated dithered sprites.
+
+# BLASM
+
+![BLASM](http://hackniac.com/images/posts/calculator_childhood/BLASM.gif)
+
+A version of TNPLSM that uses a different height function (mix of sines).
 
 # SLWPLASM
 
