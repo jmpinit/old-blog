@@ -69,3 +69,136 @@ A version of TNPLSM that uses a different height function (mix of sines).
 ![SLWPLASM](http://hackniac.com/images/posts/calculator_childhood/SLWPLASM.gif)
 
 Generates a simple plasma effect in a small portion of the screen. Unfortunately the calculator is not fast enough to do a plasma effect across the whole screen without taking advantage of assembly programming (as far as I know).
+
+# CONTOUR
+
+![CONTOUR](http://hackniac.com/images/posts/calculator_childhood/CONTOUR.gif)
+
+Created contour plots of nearly arbitrary 3D functions stored in Y= variables. Took forever to run (up to 15 minutes).
+
+# BMAZER
+
+![BMAZER](http://hackniac.com/images/posts/calculator_childhood/BMAZER.gif)
+
+A poor implementation of a recursive maze generation algorithm.
+
+# MAZE
+
+![MAZE](http://hackniac.com/images/posts/calculator_childhood/MAZE.gif)
+
+Simple binary maze generation algorithm.
+
+# CAST
+
+![CAST](http://hackniac.com/images/posts/calculator_childhood/CAST.gif)
+
+Wolfenstein-style raycasting. Only partially working. Used Bresenham's line algorithm to cast the rays.
+
+![failed CAST](http://hackniac.com/images/posts/calculator_childhood/CAST.png)
+
+# CRYSTAL
+
+![CRYSTAL](http://hackniac.com/images/posts/calculator_childhood/CRYSTAL.gif)
+
+# FLASHER
+
+![FLASHER](http://hackniac.com/images/posts/calculator_childhood/FLASHER.gif)
+
+Trying to flash the screen very rapidly using an assembly program written in Mimas. Did not work.
+
+# FLUID
+
+![FLUID](http://hackniac.com/images/posts/calculator_childhood/FLUID.gif)
+
+Fluid simulation. Worked by saving each frame as a Picture variable after simulation to be played back later at a reasonable framerate.
+
+![FLUID](http://hackniac.com/images/posts/calculator_childhood/FLUID_out.gif)
+
+# GOOP
+
+![GOOP](http://hackniac.com/images/posts/calculator_childhood/GOOP.gif)
+
+# GRID
+
+![GRID](http://hackniac.com/images/posts/calculator_childhood/GRID.gif)
+
+Makes a grid for doing 8x8 pixel art.
+
+# HEXPIC
+
+![HEXPIC](http://hackniac.com/images/posts/calculator_childhood/HEXPIC.gif)
+
+8x8 sprite editor. Output in hex format for sending to common TIBASIC sprite helper programs.
+
+# INVADE
+
+![INVADE](http://hackniac.com/images/posts/calculator_childhood/INVADE.gif)
+
+Makes a giant random space invader.
+
+# INVADERS
+
+![INVADERS](http://hackniac.com/images/posts/calculator_childhood/INVADERS.gif)
+
+Fills the screen with random space invaders.
+
+# ISODRAW
+
+![ISODRAW](http://hackniac.com/images/posts/calculator_childhood/ISODRAW.gif)
+
+Assembly program that draws a heightmap using small isometric boxes.
+
+# ISODRW
+
+![ISODRW](http://hackniac.com/images/posts/calculator_childhood/ISODRW.gif)
+
+TIBASIC program that draws a heightmap using small isometric boxes.
+
+# LIQUID
+
+![LIQUID](http://hackniac.com/images/posts/calculator_childhood/LIQUID.gif)
+
+Fast liquid simulation using Axe.
+
+# RAND
+
+![RAND](http://hackniac.com/images/posts/calculator_childhood/RAND.png)
+
+Generates a random layout of particles in a Picture variable for use with one of my fluid simulations.
+
+# RAYCAST2
+
+![RAYCAST2 input](http://hackniac.com/images/posts/calculator_childhood/RAYCAST_in.png)
+
+![RAYCAST2 input](http://hackniac.com/images/posts/calculator_childhood/RAYCAST2_in.png)
+
+A better raycaster.
+
+# ROAD
+
+![ROAD](http://hackniac.com/images/posts/calculator_childhood/ROAD.gif)
+
+Just flies above a randomly generated road.
+
+# ROOT
+
+![ROOT](http://hackniac.com/images/posts/calculator_childhood/ROOT.gif)
+
+Axe program that draws roots using a cellular automata.
+
+# ROOTS
+
+![ROOTS](http://hackniac.com/images/posts/calculator_childhood/ROOTS.gif)
+
+TIBASIC program that draws roots using a cellular automata.
+
+![ROOTS output](http://hackniac.com/images/posts/calculator_childhood/ROOT_out.png)
+# BATTERY
+
+![BATTERY](http://hackniac.com/images/posts/calculator_childhood/BATTERY.gif)
+
+Certain TI calculators know how to measure the charge in their batteries. This program used a bit of assembly code to let a TIBASIC program read that battery value and draw it in a friendly format on the screen.
+
+# ALLASCII
+
+![ALLASCII](http://hackniac.com/images/posts/calculator_childhood/ALLASCII.gif)
