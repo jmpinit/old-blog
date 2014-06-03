@@ -6,7 +6,7 @@ category: "subpost"
 tags: []
 ---
 
-All of these programs were designed to interact with my [calculator synthesizer backpack](http://www.hackniac.com/posts/ti_calculator_synthesizer_backpack.html). An AVR running a simulated SID chip (from the Commodore64) and glue interfacing code was plugged into the calculator's link port. The calculator could set registers in the SID emulation to make music.
+All of these programs were designed to interact with my [calculator synthesizer backpack](http://www.hackniac.com/posts/ti_calculator_synthesizer_backpack.html). An AVR running a simulated SID chip (from the Commodore 64) and glue interfacing code was plugged into the calculator's link port. The calculator could set registers in the SID emulation to make music.
 
 #### SENDBYTE
 
