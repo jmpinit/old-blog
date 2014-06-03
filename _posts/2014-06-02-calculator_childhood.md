@@ -15,3 +15,4 @@ tags: []
 * [evolutionary algorithms](/subpost/2014/05/30/calculator_childhood_evo.html)
 * [gravity simulation](/subpost/2014/05/30/calculator_childhood_gravity.html)
 * [synthesizer](/subpost/2014/06/01/calculator_childhood_synthpack.html)
+* [sound](/subpost/2014/06/03/calculator_childhood_sound.html)
