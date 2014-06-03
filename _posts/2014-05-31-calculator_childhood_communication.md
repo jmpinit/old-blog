@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "calculator_childhood_mimas"
+title: "calculator_childhood_communication"
 description: ""
 category: "subpost"
 tags: []
