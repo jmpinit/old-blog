@@ -24,7 +24,7 @@ Helper program for TRACKER that displays the level of a note graphically.
 
 Input a decimal number and this program outputs the hexadecimal equivalent. Useful for figuring out register values needed for the SID chip emulator.
 
-![DISPHEX](../images/calculator_childhood/DISPHEX.gif)
+![DISPHEX](http://hackniac.com/images/posts/calculator_childhood/DISPHEX.gif)
 
 #### PIANO
 
@@ -46,7 +46,7 @@ Interactive program for setting the registers of the SID emulation responsible f
 
 Music tracker/sequencer for composing music to play with the [synth backpack](http://www.hackniac.com/posts/ti_calculator_synthesizer_backpack.html).
 
-![TRACKER](../images/calculator_childhood/TRACKER.gif)
+![TRACKER](http://hackniac.com/images/posts/calculator_childhood/TRACKER.gif)
 
 __controls__
 
