@@ -58,3 +58,9 @@ PIXED
 
 Extremely simple side-scrolling platformer. Try to get to the right side of the screen by moving and jumping. Picture variables were used to store the maps, so the calculator's built-in drawing tools could be used to create them.
 
+MIASMATA
+========
+
+![MIASMATA](http://hackniac.com/images/posts/calculator_childhood/MIASMATA.gif)
+
+Unfinished calculator port of my Demomite game [Tiny Miasmata](http://owen-t.me/old/2012/02/02/tiny_miasmata.html).
