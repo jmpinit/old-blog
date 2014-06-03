@@ -12,9 +12,7 @@ All of these programs were designed to interact with my [calculator synthesizer 
 
 #### SENDBYTE
 
-__purpose__
-
-Assembly program that sends the value of the ANS variable (bounded to 1 byte) over the link port using TI link protocol. Designed to be used from TIBASIC programs by setting Ans and then calling the program like so:
+An assembly program that sends the value of the ANS variable (bounded to 1 byte) over the link port using TI link protocol. Designed to be used from TIBASIC programs by setting Ans and then calling the program like so:
 
 	3:Asm(prgmSENDBYTE)	// sends a byte of value 3
 
@@ -57,8 +55,3 @@ __controls__
 * TODO - controls for fast up/down and playback
 * 8 - move up one chunk
 * 2 - move down one chunk
-
-#### RAMSND
-
-TODO
-Axe program that plays through RAM as samples.
