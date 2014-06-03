@@ -6,6 +6,12 @@ category: "subpost"
 tags: []
 ---
 
+# METEORS
+
+![METEORS](http://hackniac.com/images/posts/calculator_childhood/METEORS.gif)
+
+Drops a lot of meteors at once and then simulates their collisions with the ground.
+
 # ARMAGED
 
 ![ARMAGED](http://hackniac.com/images/posts/calculator_childhood/ARMAGED.gif)
