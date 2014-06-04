@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "the_death_of_black_pepper_hacking_and_emotions"
+title: "the_death_of_black_pepper"
 description: ""
 category: "old"
 tags: []
