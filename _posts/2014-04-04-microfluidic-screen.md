@@ -10,7 +10,7 @@ tags: []
 
 # Microfluidic Screen
 
-![the design](http://hackniac.com/images/microfluidic_display/microfluid_screen.png)
+![the design](http://hackniac.com/images/posts/microfluidic_display/microfluid_screen.png)
 
 ## Background
 
@@ -24,13 +24,13 @@ Given the chance to build my own microfluidics device because of the Nanomaker c
 
 This is the first iteration. I haven't set up the computer controlled valves necessary to actually display an image on my design. And there are manufacturing problems to address, explained below.
 
-![before test](http://hackniac.com/images/microfluidic_display/held_sm.jpg)
+![before test](http://hackniac.com/images/posts/microfluidic_display/held_sm.jpg)
 
-![left part of slide](http://hackniac.com/images/microfluidic_display/slide_left.jpg)
+![left part of slide](http://hackniac.com/images/posts/microfluidic_display/slide_left.jpg)
 
-![right part of slide](http://hackniac.com/images/microfluidic_display/slide_right.jpg)
+![right part of slide](http://hackniac.com/images/posts/microfluidic_display/slide_right.jpg)
 
-![poor image](http://hackniac.com/images/microfluidic_display/bright_light.jpg)
+![poor image](http://hackniac.com/images/posts/microfluidic_display/bright_light.jpg)
 
 ## Problems
 
@@ -62,15 +62,15 @@ I wrote a little program to simulate the effects of varying levels of errors in 
 
 ### Back-and-forth:
 
-![line](http://hackniac.com/images/microfluidic_display/sim/line/line_error.gif)
+![line](http://hackniac.com/images/posts/microfluidic_display/sim/line/line_error.gif)
 
 ### Hilbert:
 
-![hilbert](http://hackniac.com/images/microfluidic_display/sim/hilbert/hilbert_error.gif)
+![hilbert](http://hackniac.com/images/posts/microfluidic_display/sim/hilbert/hilbert_error.gif)
 
 # Manufacturing Process
 
-![the template](http://hackniac.com/images/microfluidic_display/transparency.jpg)
+![the template](http://hackniac.com/images/posts/microfluidic_display/transparency.jpg)
 
 Happily, it is actually pretty easy to create microfluidics devices like this one.
 

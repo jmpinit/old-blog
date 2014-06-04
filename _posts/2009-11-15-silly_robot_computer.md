@@ -10,7 +10,7 @@ tags: []
 From my old hackniac blog
 
 
-![](http://hackniac.com/images/relic/robot_computer.png)
+![](http://hackniac.com/images/posts/relic/robot_computer.png)
 
 I can't explain why this came to be. The other day I brought my ancient dead laptop back to life for the fourth time. I was thinking about turning it into a robot platform, but then today I saw a cardboard box in the trash. This crazy project just poofed into my head. Lo and behold the cardboard robot/tv computer.
 

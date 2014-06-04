@@ -6,7 +6,7 @@ category: software
 tags: [java]
 ---
 
-![mario test](http://hackniac.com/images/turtle_soup/turtle_mario.gif)
+![mario test](http://hackniac.com/images/posts/turtle_soup/turtle_mario.gif)
 
 My first problem set for 6.005 (Software Construction) ended with a question asking me to draw "personal art" using the [turtle graphics](http://en.wikipedia.org/wiki/Turtle_graphics) used during the rest of the problems. When submitted, the homework server saves the images produced by everyone's code so that they can be voted on. The person who made the art that gets the most votes wins a prize.
 
@@ -65,7 +65,7 @@ To solve the problem I added code to do [run-length compression](http://en.wikip
 ## The Actual Art
 
 The code drawing some original [artwork of mine](http://hackniac.com/art/board/left.jpg):
-![art](http://hackniac.com/images/turtle_soup/turtle_art.gif)
+![art](http://hackniac.com/images/posts/turtle_soup/turtle_art.gif)
 
 Wish me luck in winning the prize.
 

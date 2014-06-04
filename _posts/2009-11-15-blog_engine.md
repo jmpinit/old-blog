@@ -10,7 +10,7 @@ tags: []
 From my old hackniac blog
 
 
-![](http://hackniac.com/images/relic/engine.png)
+![](http://hackniac.com/images/posts/relic/engine.png)
 
 My old blog engine was horrible. It was tough to maintain and difficult to write articles with. I am constructing this new system to allow my ideas to prosper more freely on the web.
 

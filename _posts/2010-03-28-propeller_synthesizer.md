@@ -10,7 +10,7 @@ tags: []
 From my old hackniac blog.
 
 
-![](http://hackniac.com/images/relic/synthesizer.png)
+![](http://hackniac.com/images/posts/relic/synthesizer.png)
 
 I love the idea of old computers. I haven't gotten my hands on any to play around with so I can't say I really love them directly. However, all that beeping, whirring, dithering, chirpy music, tape, and paper really fires my imagination. That's why I have been trying to emulate the things that I love about them, for what seems to have been ages.
 

@@ -11,7 +11,7 @@ tags: []
 Context
 =======
 
-<img src="http://hackniac.com/images/panda/the_vlla.jpg">
+<img src="http://hackniac.com/images/posts/panda/the_vlla.jpg">
 
 A few years ago my friend Ben made [a very bright 60x32 pixel LED array](http://e2e.ti.com/group/universityprogram/students/m/students_repository/664650.aspx) (called the Very Large LED Array, or VLLA for short). Since its inception it has been a fixture of many parties and events. Earlier this year Ben decided to completely redo the array. He used flexible RGB LED strips mounted on a plywood frame painted black, with two [Teensy microcontroller boards](https://www.pjrc.com/teensy/) as the brains. A dual USB connection carries images from a computer to the display.
 
@@ -47,10 +47,10 @@ Repeating the raycasting for every layer builds up the full 3D image. The raycas
     }
 </style>
 
-<img id="panda" src="http://hackniac.com/images/panda/panda1.png">
-<img id="panda" src="http://hackniac.com/images/panda/panda2.png">
-<img id="panda" src="http://hackniac.com/images/panda/panda3.png">
-<img id="panda" src="http://hackniac.com/images/panda/panda4.png">
+<img id="panda" src="http://hackniac.com/images/posts/panda/panda1.png">
+<img id="panda" src="http://hackniac.com/images/posts/panda/panda2.png">
+<img id="panda" src="http://hackniac.com/images/posts/panda/panda3.png">
+<img id="panda" src="http://hackniac.com/images/posts/panda/panda4.png">
 
 I wanted to mimic the original effect as closely as possible, so I had to get the 16x9x16 3 color voxels making up the panda in the demo. Initially I had been generating simple shapes with math to have something to see while I tested the rendering code, but I added a bit of code to generate layer matrices from a huge 16x(9x16) integer array. I spent an hour plugging voxels into this array by hand while playing the original panda effect on loop, but it became apparent that I wouldn't finish before the night was over.
 
@@ -65,8 +65,8 @@ I finished [the effect](https://gist.github.com/jmptable/11151665) at 2 AM, righ
 
 In Processing it looks like this:
 
-![Processing](http://hackniac.com/images/panda/processing_panda.gif)
+![Processing](http://hackniac.com/images/posts/panda/processing_panda.gif)
 
 And in Ben's visual DJ software it looks like this:
 
-![VLLA simulation](http://hackniac.com/images/panda/vlla_sim_panda.gif)
+![VLLA simulation](http://hackniac.com/images/posts/panda/vlla_sim_panda.gif)
