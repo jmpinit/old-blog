@@ -2,7 +2,7 @@
 layout: post
 title: "calculator_childhood_games"
 description: ""
-category: 
+category: subpost
 tags: []
 ---
 
