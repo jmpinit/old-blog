@@ -1,6 +1,4 @@
 port: 4000
-auto: true
 safe: true
-server: true
 pygmets: true
 markdown: kramdown
