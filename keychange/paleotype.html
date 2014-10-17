@@ -1,0 +1,62 @@
+---
+layout: default
+title: /paleotype
+---
+
+<h1>Keychange: Paleotype</h1>
+
+<p>This is an archive of work leading up to the <a href="https://hackaday.io/project/1321-keychange">Keychange VR keyboard project</a>. It reflects the original direction, a simple chording keyboard, before I came upon the relevance to virtual reality and changed the direction of the project.</p>
+
+<hr>
+
+<h2>Project Logs</h2>
+
+<h3>#3: Basic Principles of the Design</h3>
+
+<img src="http://40.media.tumblr.com/e293905c565c66bb2af20e50d270bbb2/tumblr_n85fqcDoL11tg3dkzo1_1280.png"></img>
+
+<p>The hardware for this project is very simple. I'm using an off-the-shelf module called the RN-42 HID to make the keyboard look like a "real" Bluetooth keyboard, so that almost all Bluetooth-capable devices will automatically know how to use it. An Atmega328p microcontroller sits in-between the buttons and the RN-42 to handle the detection and translation of chords. In its code it knows which chords correspond to which symbols.</p>
+
+<h4>Macro System</h4>
+
+<p>Usually the Atmega328p just sends the RN-42 (over 115200 baud serial) the symbol corresponding to a chord, causing the device the keyboard is connected to to see a keypress. But I intend to also experiment with macros, where hitting a chord results in a specific sequence of keypresses being fired. I'm a big fan of Vim and want to base this macro system off of its behavior. If I can build some of Vim's command language into the keyboard then I'll have a portable way to take advantage of my Vim skills, without needing to bother installing or modifying software on the system that I'm using.</p>
+
+<h4>Chord Mapping Problem</h4>
+
+<p>Probably the most interesting problem that I've encountered in this project so far is the difficulty of optimally assigning chords to symbols. There are two constraints that must be taken into consideration. The first is that certain chords are easier to remember because they have some pleasant structural pattern. Ideally the most commonly used symbols will be mapped to the chords that are easiest to remember, because that will increase typing speed. The second issue is that human fingers are not independent mechanisms. If you've ever observed your hand closely while moving your fingers then you've probably noticed that it's difficult to close certain combinations of fingers at the same time. This is due to the muscles and tendons driving the fingers being physically linked, and due to peculiarity of the brain circuitry that controls the finger muscles. A good paper that addresses the nature of this problem quantitatively is "Quantifying the Independence of Human Finger Movements" by Hager-Ross and Schieber.</p>
+
+<p>So some chords are actually almost out of the question because they simply cannot be efficiently formed by a human hand. Already constrained by the small number of buttons making up the keyboard I've got to pay careful attention to assigning the chords if I want to make my keyboard pleasant to use. Towards that end I've got a few experiments lined up that I hope will make the work of mapping the chord space easier, but they aren't ready to share just yet.</p>
+
+<h3>#2: Keyboy? Gameboard Advance?</h2>
+
+<p>This project has been on the back burner since I made first progress (the laser cut body and overall design). Working on other projects, I had this one kicking around in my head. While playing around with trying to boot a Game Boy Advance from a microcontroller it occurred to me that it might be fun to make a chord keyboard that plugs into the cartridge slot of the Game Boy.</p>
+
+<p>On the surface it seems to be just a bizarre idea, but the details show that it's also an interesting one. Game Boy Advances are pretty sweet ARM development platforms. They've got 256 KB of on-board RAM, a 16 MHz clock, a color LCD, several audio channels (tone generators as well as full digital synthesis), buttons, and 4 pins of GPIO (as well as 3.3v / ground) through the link port at the top. Because of homebrew efforts there are great tutorials for getting started programming for the platform (favorite: Tonc tutorial), and oodles of documentation on the hardware (GBATek). Once past the initial difficulty of actually getting code on the device, all sorts of interesting hacks are possible.</p>
+
+<p>But the power of the GBA languishes, exploited only for games, because the human interface is restricted to game controls. To be useful for general purpose computing tasks, it would be helpful to have standard text input. This is where the chord keyboard comes into play.</p>
+
+<p>Once I have a chord keyboard and a Bluetooth radio connected to a GBA, I can make:</p>
+
+<ul>
+    <li>A regular Bluetooth HID keyboard usable with all manners of compatible devices (PCs, tablets, phones, etc.).</li>
+    <li>A Bluetooth gamepad.</li>
+    <li>An easy and fast way to load ROMs for playing games or developing homebrew. No more messing with flash carts that must be plugged into your computer to use with crappy, outdated, and poorly translated software. Load code over the air from whatever device you have with just a click or a touch.</li>
+    <li>A capable synthesizer that plays nicely with my phone or PC for making fun 8 bit style music. Imagine the keys as the valves of a trumpet instead of a keyboard.</li>
+    <li>A handheld, wireless text terminal (keep on top of that SSH session while you browse the web maybe? Or display CPU stats?). Implemented as an X11 device it would be easy to take advantage of.</li>
+</ul>
+
+<p>Here's what I think it would look like:</p>
+
+<img src="http://41.media.tumblr.com/4b7fde407d0fa2979ddeffda52e7d5d1/tumblr_n83pbwoYuf1tg3dkzo1_1280.png"></img>
+
+<p>4 buttons added and  another 2 from the left and right shoulder flippers that the GBA already has, allowing for 2^6 unique symbols (64).</p>
+
+<b>Work</b>
+
+<p>I'm going to keep using the laser-cut prototype that I built initially to play with general chord kb usability issues. I still haven't added the control electronics, so that is the next step. Thankfully I got one of my RN-42 HID modules to work after I thought I fried it, so there's nothing in my way now.</p>
+
+<p>For the GBA concept I still need to get my bootloading code working. It takes the form of a pair of C libraries for AVR and GBA. The goal is to make it easy for the AVR to boot the GBA, run arbitrary code on it, and give the GBA access to its inputs and outputs. With that working it should be straightforward to write a chord keyboard program for the GBA. Then I can start building the hardware, which I imagine as a custom PCB with a GBA cartridge compatible edge connector, and a laser cut frame that latches into the GBA's top hook slots and supports the buttons.</p>
+
+<h3>#1: Laser cut body + key placement</h3>
+
+<p>Yesterday the battery, button, perfboard, thumb board, and main body were modeled in SolidWorks and then the body and thumb board were cut out of 1/4 inch black acrylic (what I had laying around). It took an iteration to get it mostly right. I super glued the keys into that second iteration and tested bolting on the control board. Unfortunately the super glue stained the acrylic, which I should have expected, but it's a rough prototype so I don't mind. The casing for the battery still needs to be designed before the mechanical side of the build is done.</p>
