@@ -1,35 +1,23 @@
 ---
-layout: default
+layout: homepage
 title: /home
 ---
 
-<ul>
-    <li><a href="https://www.github.com/jmptable">Github Repositories</a>
-   </li>
-    <li><a href="blog.html">Projects Blog</a>
-   </li>
-    <li><a href="concepts.html">Concepts Blog</a>
-   </li>
-</ul>
+<h1>Hi, I'm Owen Trueblood</h1>
 
 <hr>
+<center><img src="http://hackniac.com/images/derp_sm.jpg"></img></center>
+<hr>
 
-<h3>current</h3>
-<iframe src="http://jmpthoughts.tumblr.com" style="width: 100%; height: 512px;" scrolling="yes"></iframe>
-
-<h3>past</h3>
-<ol>
-{% for post in site.posts %}
-    {% if post.category != "subpost" %}
-    <li>
-		{% if post.category == "draft" %}
-		<i>
-		{% endif %}
-        <p><b><a href="{{ post.url }}">{{ post.title }}</a></b> at {{post.date}} in {{post.category}}</p>
-		{% if post.category == "draft" %}
-		</i>
-		{% endif %}
+<ul>
+    <li><h3>I write code for hard things and soft things <a href="https://www.github.com/jmptable">(<i>my github</i>).</a></h3>
     </li>
-    {% endif %}
-{% endfor %}
-</ol>
+    <li><h3>I have built many interesting, weird, and useful machines <a href="blog.html">(<i>my projects</i>)</a>. And I continue to <a href="http://jmpthoughts.tumblr.com">(<i>my tumblr</i>)</a></h3>
+    </li>
+    <li><h3>I see my life purpose as building the visions my mind gives me <a href="concepts.html">(<i>my ideas</i>).</a></h3>
+    </li>
+    <li><h3>I am an EECS student at MIT and have worked for a few hardware startups in Cambridge <a href="resume.html">(<i>my r&#233sum&#233</i>).</a></h3>
+    </li>
+    <li><h3>If you want to offer me a job, collaborate on a project, or just chat, I am easily reached <a href="contact.html">(<i>contact me</i>).</a></h3>
+    </li>
+</ul>
