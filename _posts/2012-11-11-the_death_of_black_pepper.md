@@ -19,9 +19,6 @@ I took with me to MIT. I attached it to the ceiling of my room and fired it up. 
 
 The emotional fallout was bad. I felt like I had gotten a disfiguring injury. Black Pepper was a physical object that I could point to and say, "this is what I am capable of. I made that with my own head and hands." I had lived inside of the world that I had built that machine in for a very long time. Immense effort was poured into it over many months. And then it was gone and all I have to show for it are a few bad pictures taken from my phone.
 
-[edit: fixing the slideshow system...]
-
-
 ## Hacking and Emotions - motivation and ambition
 
 Black Pepper is dead physically, but has entered a new life as a nucleation point in my head for understanding what I'm doing with my life and why I am doing it. I'm spending my life hacking because hacking for me is a deeply emotional activity. I think that many people who strive to make beautiful things have this kind of relationship with their creations, whether they be machines, buildings, or more traditional works of art like literature, painting, and theater. It's not something that you decide to do. It's something that you need to do, and you'll feel terrible if you're kept from doing it.

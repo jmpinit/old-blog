@@ -17,8 +17,6 @@ I like hacking and I like robots, and I like programming and I like money. So na
 
 Below you can play the demo of the game that I created, peruse both my [Flashdevelop ](http://www.flashdevelop.org/)project and source code for the game, and take a look at the notes that I took during my thought process in developing it.
 
-[edit: sorry, fixing slideshow system]
-
 [Code to peruse.](http://www.hackniac.com/blog/wp-content/uploads/2011/09/Hackwire.zip)
 
 In the demo you can move around the small map and swap bodies with the enemies present in it. They all have very stupid AI, simply moving randomly. The security bot in the top portion of the map cannot be hacked into with your hackwire, because he doesn't have a connection port. Try hacking into the computer prison in the lower left and then controlling him; I like how he turned out. A look through the code for the game will clear up exactly how that stuff is implemented. I try to make my code as elegant as possible, much of my time is spent thinking philosophically about how game objects are related (probably why I never finished the game), so it might be interesting to peruse.
