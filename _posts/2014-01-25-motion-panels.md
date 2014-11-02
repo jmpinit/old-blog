@@ -8,7 +8,7 @@ tags: []
 
 # The Idea
 
-An affordable table that can rearrange the items placed on top of it.  
+An affordable table that can rearrange the items placed on top of it in position and rotation under computer control. Useful for reconfigurable assembly-line processes like object sorting, lab sample processing, and electronics assembly or disassembly.
 
 # Inspiration
 
