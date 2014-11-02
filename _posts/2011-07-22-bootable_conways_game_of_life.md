@@ -2,7 +2,7 @@
 layout: post
 title: "bootable_conways_game_of_life"
 description: ""
-category: "old"
+category: "software"
 tags: []
 ---
 
