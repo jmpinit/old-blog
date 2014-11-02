@@ -6,6 +6,10 @@ category: "concept"
 tags: []
 ---
 
+# The Idea
+
+An affordable table that can rearrange the items placed on top of it.  
+
 # Inspiration
 
 * [3DOF Ultrasonic Levitation](http://96ochiai.ws/3DOFacoustic)
@@ -14,10 +18,6 @@ tags: []
 * [Vibratory Conveyor](http://www.youtube.com/watch?v=0eDWGMLf8dQ)
 
 Each of their arrays has 285 transmitters. Each transmitter costs $5. So with 4 arrays that's about $5700 just for the ultrasonic transmitters.  Clearly cost is prohibitive for reproducing this project, so I started thinking about cheaper ways to accomplish similar goals.  
-
-# The Idea
-
-An affordable table that can rearrange the items placed on top of it.  
 
 ## Motion Panel
 
