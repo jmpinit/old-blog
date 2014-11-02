@@ -12,6 +12,8 @@ A long time ago as part of an independent study of computer science for school I
 
 ![boooom](http://hackniac.com/images/posts/lineworld/lineworld.gif)
 
+The code is [up on Github](https://github.com/jmptable/lineworld).
+
 Here are the notes that I put in the readme for it:
 
 	lineworld
