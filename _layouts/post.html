@@ -14,20 +14,17 @@
       <section>
         <div id="title">
             <h2><a href="{{site.url}}/index.html">@jmptable</a>: /blog/<h2>
-            <h3>{{page.title}}</h3>
+            <h1>{{page.title}}</h1>
           <hr>
+          <center>( posted in {{page.category}} at {{page.date}} )</center>
         </div>
-        <blockquote> 
-            posted in {{page.category}} at {{page.date}}
-        </blockquote>
 {{content}}
-
       </section>
     </div>
 	
-	<footer>
-		<span class="credits right"> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a> by Owen Trueblood. </span>
-	</footer>
+    <footer>
+    <span class="credits right"> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a> by Owen Trueblood. </span>
+    </footer>
   </body>
 
   <!-- Google Analytics -->
