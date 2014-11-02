@@ -6,12 +6,11 @@ category: "old"
 tags: []
 ---
 
-
 [![](http://www.hackniac.com/blog/wp-content/uploads/2011/12/Explosion.png)](http://www.hackniac.com/blog/wp-content/uploads/2011/12/Explosion.png)
 
 A long time ago as part of an independent study of computer science for school I created this generative art program in Java that I call Lineworld. A "bird" flies down a console window, leaving a trail. At random intervals different entities are launched into the 2D little world (1 space dimension and 1 time dimension). Some of the entities bounce off the walls and most explode into ASCII characters at some point, but the bird keeps flying throughout it all. It's definitely a strange thing, but absolutely fascinating to watch (in my opinion of course).
 
-<!--more-->
+![boooom](http://hackniac.com/images/posts/lineworld/lineworld.gif)
 
 Here are the notes that I put in the readme for it:
 
