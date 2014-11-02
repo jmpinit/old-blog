@@ -13,7 +13,7 @@ Wireman, the most dangerous hacker in Robot World, has finally been caught. For 
 
 <!--more-->
 
-I like hacking and I like robots, and I like programming and I like money. So naturally I would want to combine them, and I got close to doing so with this flash game that I started developing during last summer. I called it Hackwire. The intention was to make it in a few weeks of intense work and then get it sponsored on a flash game website and make some money to spend on my other projects. It didn't turn out that way mostly because it was only my second attempt at flash game development, but I succeeded in making at least a simple demo and learned quite a bit about the process.
+I like hacking and I like robots and I like programming. So naturally I would want to combine them, and I got close to doing so with this flash game that I started developing during last summer. I called it Hackwire. The intention was to make it in a few weeks of intense work and then get it sponsored on a flash game website and make some money to spend on my other projects. It didn't turn out that way mostly because it was only my second attempt at flash game development, but I succeeded in making at least a simple demo and learned quite a bit about the process.
 
 Below you can play the demo of the game that I created, peruse both my [Flashdevelop ](http://www.flashdevelop.org/)project and source code for the game, and take a look at the notes that I took during my thought process in developing it.
 
