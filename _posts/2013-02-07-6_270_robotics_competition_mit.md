@@ -84,7 +84,7 @@ To help debug the robot we wrote two tools. The first was a simple simulator tha
 
 ### Simulator
 
-![robot simulator](http://www.hackniac.com/blog/wp-content/uploads/2013/02/simulator.png)
+![robot simulator](http://www.hackniac.com/images/posts/6270_robot/simulator.png)
 
 The square is the simulated robot, with its front indicated by the line. The red circle is the target that the virtual robot is following. For each prototype approach a new Java class was written that inherited from the Robot class. The Robot class contained methods identical to those in JoyOS, so the code written in a prototype could be pasted directly into the real robot's code and compiled as C with minimal changes.
 
@@ -93,31 +93,31 @@ The square is the simulated robot, with its front indicated by the line. The red
 
 The empty circles are the important VPS coordinates stored in the robot. Red circles are capture points, blue ones are mines, and the green ones are waypoints (in the center of the territories). The white circle is the location of the robot when logging stopped, and the white line is the path it took. The path is where the robot thinks it went, not necessarily actually where it went.
 
-![circle](http://www.hackniac.com/blog/wp-content/uploads/2013/02/circle.png)
+![circle](http://www.hackniac.com/images/posts/6270_robot/circle.png)
 
 Told the robot to navigate in a circle and maintain its distance from the center using a PID. Lag from the VPS caused feedback that led to the curves.
 
-![not dead-reckoning](http://www.hackniac.com/blog/wp-content/uploads/2013/02/with_vps_1.png)
+![not dead-reckoning](http://www.hackniac.com/images/posts/6270_robot/with_vps_1.png)
 
 Here the approach was: turn in place to face the target, calculate the distance to the target, then drive for that distance in a straight line. It was the most accurate method but slow. And sometimes it would glitch and head in a completely wrong direction with no possibility of correction.
 
-![more vps updates](http://www.hackniac.com/blog/wp-content/uploads/2013/02/update_more.png)
+![more vps updates](http://www.hackniac.com/images/posts/6270_robot/update_more.png)
 
 Modified version of the previous approach where the robot used its internal gyro to continuously update its heading towards the target. Worked very well except for the glitches at the first two waypoints, which we did not have time to figure out.
 
-![heading update with vps](http://www.hackniac.com/blog/wp-content/uploads/2013/02/en_route_vps_heading.png)
+![heading update with vps](http://www.hackniac.com/images/posts/6270_robot/en_route_vps_heading.png)
 
 Instead of blindly following the internal gyro reading (which can get out of sync with the real VPS heading) we took advantage of the often-true fact that half-way to our destination we would be travelling straight, so error due to VPS lag would be minimized for the heading. Syncing with the VPS always seemed to make things worse...
 
-![hybrid](http://www.hackniac.com/blog/wp-content/uploads/2013/02/linear_rot.png)
+![hybrid](http://www.hackniac.com/images/posts/6270_robot/linear_rot.png)
 
 Eventually the Sensor was able to keep track of the rotational velocity of the robot, so we used that as a way to know when the VPS lag error would be minimized. If the rotational velocity was below a threshold we synced with the VPS.
 
-![tracing arena](http://www.hackniac.com/blog/wp-content/uploads/2013/02/trace.png)
+![tracing arena](http://www.hackniac.com/images/posts/6270_robot/trace.png)
 
 This was not the robot's doing. We dragged it around the edge of the arena by hand to check the VPS coordinates that we had stored inside of it.
 
-![failed dead-reckoning](http://www.hackniac.com/blog/wp-content/uploads/2013/02/no_vps.png)
+![failed dead-reckoning](http://www.hackniac.com/images/posts/6270_robot/no_vps.png)
 
 At one point the radio was taken out of the robot so dead-reckoning could be tested. It had worked very well several times previously, but on this attempt it failed miserably. It thought that it was driving around outside of the arena when really it was running hard into the wall.
 
