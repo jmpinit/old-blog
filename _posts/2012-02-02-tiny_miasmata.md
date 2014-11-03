@@ -63,11 +63,11 @@ Strangely enough this is where I had the most challenging code to write. The tec
 
 [![](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_enemy1-300x255.jpg)](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_enemy1-e1328138518322.jpg)
 
-[![](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_death-300x258.jpg)](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_death-e1328138469879.jpg)
-
 I dug myself so deeply into the challenges associated with the game world and bringing the player to life within it that I neglected one of the most important part of any story, whether it is told by a game or not - the conflict. The player could move and jump and explore the world, but had nothing to do. I'll admit that this part was almost an afterthought. When I reached the point of adding an enemy for the player to fight I was almost out of time to work. I basically copied the player's code exactly and added a tiny bit of intelligence.
 
 To simplify things there is only one enemy. He looks exactly like the player. If the enemy sees the player it will move towards the player and kill him or her on contact. Even though there is only one enemy, to the player it seems like there are many, although only one at a time. When the enemy dies he is recycled and spawned anew in another section of the world.
+
+[![](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_death-300x258.jpg)](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_death-e1328138469879.jpg)
 
 As a matter of necessity the player needs a way to fight the enemy. To that end I created the tool of corruption, which is the central theme of Miasmata. The world that the player inhabits is corrupted by the Miasma, but the player can do corrupting as well. In the PC version of the game this ability can be used to destroy as well as create, although which one is left up to chance. In that sense the power of corruption in Tiny Miasmata is much more blunt. The player can use corruption to randomly change the map nearby or kill the enemy. The changes are not saved and the enemy is never truly dead. Any use of corruption messes up the image on the screen and therefore makes it harder to tell what is going on.
 
