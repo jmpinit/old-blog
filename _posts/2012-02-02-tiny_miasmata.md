@@ -6,12 +6,7 @@ category: "old"
 tags: []
 ---
 
-
-[![](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_corrupt.jpg)](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_corrupt-e1328138412906.jpg)
-
-[![](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_transmute.jpg)](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_transmute-e1328138438799.jpg)
-
-[![](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_cut.jpg)](http://www.hackniac.com/blog/wp-content/uploads/2012/02/demomite_play_cut-e1328138454825.jpg)
+![](http://www.hackniac.com/images/posts/tiny_miasmata/demomite_play.gif)
 
 Tiny Miasmata takes advantage of what is available within those strict limits. The game is a stripped down version of a PC game that I've been working on in Ruby, simply called Miasmata. It was very challenging to manage the basic aspects of the game within the limited hardware and the limited development time available to me, but also lots of fun.
 
