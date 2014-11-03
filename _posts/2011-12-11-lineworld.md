@@ -2,7 +2,7 @@
 layout: post
 title: "lineworld"
 description: ""
-category: "old"
+category: "art"
 tags: []
 ---
 
