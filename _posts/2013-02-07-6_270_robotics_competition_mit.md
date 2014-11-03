@@ -6,10 +6,13 @@ category: "old"
 tags: []
 ---
 
+![](http://hackniac.com/images/posts/6270_robot/robot.jpg)
 
-To download the code visit the project's [page on GitHub](https://github.com/jmptable/vs-robot).
+# 6.270 - the robot MIT competition
 
-### Overview
+6.270 was a LEGO robot competition held at MIT during the Independent Activities Period (a month off in January for fun engineering projects). In 2013 I entered it with a team and we built this robot. The goal of the competition was to build a robot out of LEGOs that would be able to win a territorial ball game on a hexagonal playing field. A board designed just for the competition called the Happy Board ran an OS written for the competition called JoyOS. Our user code ran on the Happy Board's AVR processor and responded to both on-board sensors and information fed over a radio link (primarily absolute position and orientation measured by an overhead camera).
+
+### Robot Overview
 
 Our robot's code is divided into these main sections:
 	
@@ -117,3 +120,5 @@ This was not the robot's doing. We dragged it around the edge of the arena by ha
 ![failed dead-reckoning](http://www.hackniac.com/blog/wp-content/uploads/2013/02/no_vps.png)
 
 At one point the radio was taken out of the robot so dead-reckoning could be tested. It had worked very well several times previously, but on this attempt it failed miserably. It thought that it was driving around outside of the arena when really it was running hard into the wall.
+
+To download the code visit the project's [page on GitHub](https://github.com/jmptable/vs-robot).
