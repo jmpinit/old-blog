@@ -75,4 +75,5 @@ As a matter of necessity the player needs a way to fight the enemy. To that end 
 
 This is the most difficult software project I have ever taken on (or at least that I have gotten to some semblance of a finished state). It was a really great challenge, fun and intense. I wish I could have put more of myself into it, but the usual anchors of responsibility to school and living held me back as usual. I'm going to keep exploring what I can do with this fun little platform of mine, there is a lot of potential hiding in its diminutive hardware.
 
-[Source code](http://www.hackniac.com/blog/wp-content/uploads/2012/01/TinyMiasmata.zip)
+* [Source on Github](https://github.com/jmptable/tiny-miasmata)
+* [Source code zip](http://www.hackniac.com/blog/wp-content/uploads/2012/01/TinyMiasmata.zip)
