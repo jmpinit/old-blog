@@ -6,7 +6,6 @@ category: "old"
 tags: []
 ---
 
-
 [![](http://www.hackniac.com/blog/wp-content/uploads/2011/09/hackwire_plug.png)](http://www.hackniac.com/blog/wp-content/uploads/2011/09/hackwire_plug.png)
 
 Wireman, the most dangerous hacker in Robot World, has finally been caught. For the protection of robot society he is imprisoned in a complex within an asteroid floating far away in space, his mind transferred to a computer that has no connections to the outside world. A skeleton crew maintains the asteroid prison and makes sure their dangerous prisoner does not escape. The crew includes an old, and dim-witted, cleaning robot. After a short time in his prison Wireman hatches a plan to escape. His only connection to the outside world are some indicator lights on his body's control panel, but for the craftiest hacker, Wireman, they are plenty to carry out his plot. When the unintelligent cleaning robot comes to tend to the area around Wireman's computer he sees the that all of the lights are blinking a self-destruct countdown. Alarmed, the janitor bot connects to the controls to try to stop what he thinks is his imminent death. Immediately Wireman hacks the janitor and they swap bodies. Off Wireman goes to escape the asteroid and reclaim his place as hacker king!
@@ -20,6 +19,15 @@ Below you can play the demo of the game that I created, peruse both my [Flashde
 [Code to peruse.](http://www.hackniac.com/blog/wp-content/uploads/2011/09/Hackwire.zip)
 
 In the demo you can move around the small map and swap bodies with the enemies present in it. They all have very stupid AI, simply moving randomly. The security bot in the top portion of the map cannot be hacked into with your hackwire, because he doesn't have a connection port. Try hacking into the computer prison in the lower left and then controlling him; I like how he turned out. A look through the code for the game will clear up exactly how that stuff is implemented. I try to make my code as elegant as possible, much of my time is spent thinking philosophically about how game objects are related (probably why I never finished the game), so it might be interesting to peruse.
+
+## Demo
+
+<object type="application/x-shockwave-flash" 
+data="http://www.hackniac.com/uploads/Hackwire.swf" 
+width="640" height="480">
+<param name="movie" value="http://www.hackniac.com/uploads/Hackwire.swf" />
+<param name="quality" value="high"/>
+</object>
 
 **Controls:**
 
