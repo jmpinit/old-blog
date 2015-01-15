@@ -2,3 +2,4 @@ port: 4000
 safe: true
 pygmets: true
 markdown: kramdown
+paginate: 5
